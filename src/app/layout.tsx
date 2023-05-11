@@ -10,7 +10,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
     title: 'IMDb Clone',
     description: 'This is an IMDb clone',
-    other: {image: "https://preview.redd.it/wk01okjvpar61.jpg?width=960&crop=smart&auto=webp&s=12cc4ee8093e75a6e0e69f24beefae50cfbfa2e2"}
 }
 
 export default function RootLayout({
