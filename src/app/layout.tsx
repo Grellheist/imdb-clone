@@ -19,6 +19,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
+            <head>
+                <meta property="og:image" content={"https://preview.redd.it/wk01okjvpar61.jpg?width=960&crop=smart&auto=webp&s=12cc4ee8093e75a6e0e69f24beefae50cfbfa2e2"} />
+            </head>
             <body className={inter.className}>
                 <Providers>
                     <Header />
